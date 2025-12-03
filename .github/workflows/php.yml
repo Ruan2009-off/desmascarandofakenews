@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name:instalar dependencias
+    - name: instalar dependencias
       run: composer install
 
     - name: Executar
